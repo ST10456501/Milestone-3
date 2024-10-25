@@ -18,9 +18,9 @@ export default function BookingScreen() {
   const handleCourseSelect = (courseId) => {
     setSelectedCourses((prevSelected) => {
       if (prevSelected.includes(courseId)) {
-        return prevSelected.filter(id => id !== courseId); // Deselect course
+        return prevSelected.filter(id => id !== courseId); 
       } else {
-        return [...prevSelected, courseId]; // Select course
+        return [...prevSelected, courseId]; 
       }
     });
   };
@@ -54,7 +54,7 @@ export default function BookingScreen() {
       [{ text: 'OK' }]
     );
 
-    // Here you could also add functionality to save the booking to a database or API
+
   };
 
   return (
@@ -137,7 +137,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#ffffff',
   },
   selectedCourse: {
-    backgroundColor: '#cce5ff', // Light blue for selected course
+    backgroundColor: '#cce5ff', 
   },
   courseButtonText: {
     fontSize: 16,
