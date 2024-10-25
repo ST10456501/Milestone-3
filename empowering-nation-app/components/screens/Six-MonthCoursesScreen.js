@@ -67,7 +67,7 @@ export default function SixMonthCoursesScreen({ navigation }) {
         />
       </View>
 
-      {/* Navigation Button to Booking Screen */}
+    
       <TouchableOpacity
         style={styles.button}
         onPress={() => navigation.navigate('Booking')}
@@ -111,7 +111,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#3D6E3D', // Darker green for the title
+    color: '#3D6E3D', 
   },
   subtitle: {
     fontSize: 22,
@@ -127,7 +127,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     padding: 15,
     marginVertical: 5,
-    elevation: 2, // Shadow effect
+    elevation: 2, 
   },
   courseTitle: {
     fontSize: 20,
