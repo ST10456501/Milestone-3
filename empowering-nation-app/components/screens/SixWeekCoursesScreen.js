@@ -39,7 +39,7 @@ const SixWeekCourseScreen = ({ navigation }) => {
 
   const handleBookingNavigation = () => {
     // Navigate to booking screen
-    navigation.navigate('Booking'); // Change 'Booking' to the actual name of your booking screen if needed
+    navigation.navigate('Booking'); 
   };
 
   return (
@@ -47,7 +47,7 @@ const SixWeekCourseScreen = ({ navigation }) => {
       {/* Header Section */}
       <View style={styles.header}>
         <Image
-          source={require('./Logo.jpg')} // Ensure the logo image path is correct
+          source={require('./Logo.jpg')}
           style={styles.logo}
         />
         <Text style={styles.title}>Empowering the Nation</Text>
@@ -138,11 +138,11 @@ const styles = StyleSheet.create({
     marginTop: 20,
     padding: 15,
     borderRadius: 8,
-    backgroundColor: '#D1A343', // Button color
+    backgroundColor: '#D1A343',
     alignItems: 'center',
   },
   buttonText: {
-    color: '#FFFFFF', // Text color
+    color: '#FFFFFF', 
     fontSize: 16,
     fontWeight: 'bold',
   },
