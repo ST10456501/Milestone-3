@@ -1,9 +1,9 @@
 import { StyleSheet } from 'react-native';
 
 const colors = {
-  primary: '#123456',     // Your primary color (e.g., for headers or navigation)
-  background: '#f1f1f1',  // Background color
-  button: '#ff9800',      // Button color
+  primary: '#123456',     
+  background: '#f1f1f1',  
+  button: '#ff9800',   
   text: '#000000',        
 };
 
