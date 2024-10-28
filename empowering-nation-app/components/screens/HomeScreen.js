@@ -44,13 +44,13 @@ export default function HomeScreen({ navigation }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#5B7D5B', // Similar to the green used on the website
+    backgroundColor: '#5B7D5B',
   },
   header: {
     flexDirection: 'row',
     alignItems: 'center',
     padding: 20,
-    backgroundColor: '#3D6E3D', // Darker green for the header
+    backgroundColor: '#3D6E3D',
   },
   logo: {
     width: 80,
@@ -84,10 +84,10 @@ const styles = StyleSheet.create({
     paddingHorizontal: 50,
   },
   button: {
-    backgroundColor: '#D1A343', // Golden yellow for the buttons
+    backgroundColor: '#D1A343', 
     padding: 5,
     borderRadius: 5,
-    marginVertical: 5, // Space between buttons
+    marginVertical: 5, 
   },
   buttonText: {
     color: '#FFF',
