@@ -5,10 +5,10 @@ import { StyleSheet, Text, View, Image, TouchableOpacity, ScrollView } from 'rea
 export default function SixMonthCoursesScreen({ navigation }) {
   return (
     <ScrollView style={styles.container}>
-      {/* Header Section */}
+      
       <View style={styles.header}>
         <Image
-          source={require('./Logo.jpg')} // Ensure the logo image path is correct
+          source={require('./Logo.jpg')} 
           style={styles.logo}
         />
         <Text style={styles.title}>Empowering the Nation</Text>
@@ -32,7 +32,7 @@ export default function SixMonthCoursesScreen({ navigation }) {
         />
         <CourseDetails
           title="Sewing"
-          fee="R1600"
+          fee="R1500"
           purpose="To provide alterations and new garment tailoring services"
           content={[
             'Types of stitches',
