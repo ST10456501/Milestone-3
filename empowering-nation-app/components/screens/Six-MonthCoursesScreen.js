@@ -93,16 +93,17 @@ const CourseDetails = ({ title, fee, purpose, content }) => (
 );
 
 const styles = StyleSheet.create({
-  container: {
+ container: {
     flex: 1,
-    padding: 20,
     backgroundColor: '#5B7D5B',
   },
-  header: {
+   header: {
     flexDirection: 'row',
     alignItems: 'center',
-    marginBottom: 20,
-  },
+    padding: 20,
+    backgroundColor: '#3D6E3D',
+   },
+   
   logo: {
     width: 80,
     height: 80,
@@ -111,7 +112,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#3D6E3D', 
+    color: '#FFF', //Changed to white 
   },
   subtitle: {
     fontSize: 22,
@@ -122,12 +123,12 @@ const styles = StyleSheet.create({
   courseContainer: {
     marginBottom: 20,
   },
-  courseDetails: {
+   courseDetails: {
     backgroundColor: '#ffffff',
     borderRadius: 10,
     padding: 15,
     marginVertical: 5,
-    elevation: 2, 
+    elevation: 2,// Shadow effect
   },
   courseTitle: {
     fontSize: 20,
