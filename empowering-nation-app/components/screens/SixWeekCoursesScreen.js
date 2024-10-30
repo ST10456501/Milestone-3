@@ -77,13 +77,14 @@ const SixWeekCourseScreen = ({ navigation }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 20,
+    padding: 1,
     backgroundColor: '#5B7D5B',
   },
   header: {
     flexDirection: 'row',
     alignItems: 'center',
-    marginBottom: 20,
+    padding: 20,
+    backgroundColor: '#3D6E3D',
   },
   logo: {
     width: 80,
@@ -93,14 +94,15 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#FFF',
+    color: '#fff',
   },
+  
   subtitle: {
     fontSize: 22,
     fontWeight: 'bold',
     textAlign: 'center',
     marginVertical: 10,
-    color: '#FFF',
+    color: '#000',
   },
   courseContainer: {
     marginBottom: 20,
@@ -129,6 +131,8 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginTop: 10,
     marginBottom: 5,
+   
+    
   },
   contentItem: {
     fontSize: 16,
@@ -138,15 +142,16 @@ const styles = StyleSheet.create({
     marginTop: 20,
     padding: 15,
     borderRadius: 8,
-    backgroundColor: '#D1A343',
+    backgroundColor: '#D1A343', // Button color
     alignItems: 'center',
   },
   buttonText: {
-    color: '#FFFFFF', 
+    color: '#FFFFFF', // Text color
     fontSize: 16,
     fontWeight: 'bold',
   },
 });
+
 
 export default SixWeekCourseScreen;
 
